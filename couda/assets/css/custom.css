@@ -1,0 +1,166 @@
+.pad{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.header-section{
+	min-height: 100vh;
+	background-color: #87509C;
+}
+
+.navbar-default {
+    background-color: transparent !important;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus,.navbar-default .navbar-nav > li > a.active {
+    color: #fff;
+    background-color: #643d73;
+}
+  .navbar-right { 
+    padding-top: 20px;
+}
+
+.carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 0;
+    top: 100%;
+    transform: translateY(-50%);
+    padding-top: 30%;
+}
+
+.carousel-inner { 
+    overflow: inherit !important;
+}
+.carousel-caption a {
+    background: #EB7D4B;
+    padding: 20px 60px;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    box-shadow: 0 5px 0 #b55c34;
+    margin-top: 30px;
+    text-decoration: none;
+    border-radius: 4px
+}
+
+.services-section{
+	    background: #17C2A4;
+    color: #fff;
+    min-height: 100vh
+}
+.heading{
+	padding-bottom: 50px;
+}
+.heading h1{
+	text-transform: uppercase;
+	font-weight: 600;
+	position: relative;
+	margin-bottom: 15px;
+	padding: 20px;
+}
+.heading h1:after{
+	content: "";
+	position: absolute;
+	width: 100px;
+	background: #0e9079;
+	height: 5px;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%) scale(0);
+	 
+	transition: all 0.4s ease;
+}
+section:hover .heading h1:after{ 
+	transform: translateX(-50%) scale(1);
+}
+.heading p{}
+
+.services{
+	margin-bottom: 50px
+}
+.services h2{}
+.services p{}
+.services img{
+	    margin: 0 auto;
+}
+
+
+.team-section{
+	background-color: #E7F1F8;
+	min-height: 100vh;
+}
+
+.team-section .heading h1:after { 
+    background: #9aa3a9;
+    }
+
+    .team{
+    	margin-bottom: 50px
+    }
+    .team img{
+    	margin: 0 auto
+    }
+
+
+    .social li{
+    	    display: inline-block;
+    float: none;
+    }
+    .social.nav-pills > li > a { 
+    background: #898989;
+    border-radius: 50%;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+}
+
+
+
+
+.progressbar{
+	    position: relative;
+}
+.progressbar span{
+	    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 600;
+}
+.progressbar img{margin: 0 auto}
+
+.progressbar span sub{}
+.skills-section{
+	min-height: 100vh;
+}
+
+ 
+
+ .blog-section{
+ 	min-height: 100vh;
+ 	background: #D74680;
+ 	color: #fff
+ }
+
+ .blog{
+ 	margin-bottom: 50px
+ }
+
+ @media (max-width: 767px){
+ 	.blog{
+ 		text-align: center;
+ 	}
+ 	.blog img{margin: 0 auto}
+ }
